@@ -1,0 +1,847 @@
+body {
+  margin: auto 0px;
+  font-family: Helvetica, sans-serif;
+
+
+}
+
+ul {
+  list-style: none;
+
+}
+/*header style starts */
+
+/*nav style starts */
+
+
+nav {
+  list-style-type: none;
+  position: fixed;
+  display: block;
+  width: 100%;
+  height: 75px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #503f36;
+  z-index: 2;
+}
+
+.logo {
+  width: 120px;
+  padding-top: 15px;
+  float: left;
+
+}
+
+ul.topnav{
+  list-style-type: none;
+  position: relative;
+  float: right;
+
+}
+
+.topnav li {
+  position: relative;
+  float:right;
+
+}
+
+ul.topnav li a{
+  position: relative;
+  float:right;
+  display: inline-block;
+  color: #ebdecc;
+  padding: 20px 25px 15px 10px;
+  font-size: 1.7vmax;
+  font-size: 18
+  text-decoration: none;
+  transition: 0.3s;
+
+}
+
+ul.topnav li a:hover {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+
+ a:active  {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+
+/*nav style ends */
+
+/*landing style starts */
+
+.landing {
+  background-image: url(http://i377.photobucket.com/albums/oo219/Nieszka_Ko/For%20Web%20Use/akniche/im_creator_grasslands_ryanmcguire_copy_zpsceuk0az3.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 80%;
+  background-color: #e8cfae;
+  position: absolute;
+  padding-bottom: 20%;
+  width:100%;
+  height: 750px;
+
+}
+
+#lglogo {
+  max-width: 60%;
+  width: 800px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+/*landing style ends */
+
+/*header style ends */
+
+/*about style start*/
+.about {
+  width: 100%;
+  height:100%;
+  padding-bottom: 15%;
+  background-color: #e8cfae;
+  padding-top: 751px;
+
+}
+
+.about-content {
+  color: #503f36;
+  width: 55%;
+  text-align: center;
+  margin: 0 auto;
+
+}
+
+h1 {
+  margin: 0 auto;
+  text-align: center;
+  font-weight: bold;
+  font-size: 3em;
+  font-size: 5vmax;
+}
+
+.p-about{
+    margin:0 auto;
+    padding-top:75px;
+    width: 45%;
+    font-size: 18px;
+    text-align: right;
+    float: right;
+
+
+}
+
+.img-about{
+  float:right;
+  padding-right: 7%;
+  padding-top: 10%;
+  padding-bottom: 8%;
+  padding-left: 10%;
+  margin: 0 auto;
+
+}
+
+.h4-about{
+  clear: both;
+  font-weight: bold;
+  margin:0 auto;
+  text-align: center;
+
+}
+
+.h4-about-responsive {
+  display: none;
+  clear: both;
+  font-weight: bold;
+  margin:0 auto;
+  text-align: center;
+
+}
+
+.social-media{
+  max-width: 360px;
+  margin:0 auto;
+
+}
+
+.a-about{
+  max-width: 50px;
+  height: 50px;
+  float:left;
+  margin-right: 40px;
+  margin-top: 40px;
+
+}
+/* about style end*/
+
+/* portfolio style start*/
+
+.portfolio {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 15%;
+    background-image:url(http://i377.photobucket.com/albums/oo219/Nieszka_Ko/For%20Web%20Use/akniche/portfolio_plate_zpsdwqgmk85.jpg);
+    background-size: cover;
+}
+
+
+.portfolio-content {
+  color: #503f36;
+  padding-top: 10%;
+  max-width: 90%;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+}
+.gallery-wrapper {
+  padding-top: 8%;
+  overflow: hidden;
+  margin: 10px;
+
+}
+
+.responsiveBox {
+  width: 32%;
+  padding-bottom: 250px;
+  border-radius: 3px;
+  position: relative;
+  float:left;
+  display:block;
+  margin-right: 12px;
+  margin-bottom: 125px;
+
+}
+
+.responsiveContent {
+    position: absolute;
+    left: 10px;
+    right:10px;
+    top: 10px
+    bottom: 10px;
+    overflow: hidden;
+
+}
+
+.responsiveContent .caption {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   margin-bottom: -60px;
+   padding: 2px 0 2px 2px;
+   background: rgba(111, 69, 48, .9);
+   color: #ebdecc;
+   font-size: 1.5vmax;
+   text-align: center;
+   -webkit-transition: all 0.3s ease-out;
+   -moz-transition: all 0.3s ease-out;
+   -o-transition: all 0.3s ease-out;
+   transition: all 0.3s ease-out;
+
+}
+
+.responsiveContent img {
+  width: 100%;
+
+}
+
+body.no-touch .responsiveContent:hover .caption, body.touch .responsiveContent .touchFocus .caption {
+   margin-bottom: 0;
+
+}
+
+.anchor {
+  position: absolute;
+  top:0;
+
+}
+
+/* contactMe style start*/
+
+.contactme-section{
+  background-color: #ebdecc;
+  height:100%;
+  width: 100%;
+  padding-bottom: 100px;
+
+}
+.contactMe {
+  padding-top:25px;
+  width: 100%;
+
+}
+
+#contactMeH1{
+  padding-top: 5%;
+  margin:0 auto;
+  color: #503f36;
+
+}
+
+.contactMeP{
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  font-size: 18px;
+  color: #503f36;
+
+}
+
+/* jotform styling */
+
+.form-all {
+  font-size:15px !important;
+  font-family: Helvetica, sans-serif !important;
+
+
+}
+
+ul.form-section li {
+  width: 40%;
+  margin: 0 auto;
+  padding-top: 8px;
+
+}
+
+
+.form-required, .form-label-top {
+    color:  #503f36 !important;
+
+  }
+
+.form-label-left{
+    width:150px !important;
+
+}
+
+.form-label-right{
+    width:150px !important;
+
+}
+
+input, textarea {
+  background-color: #503f36;
+  color: #ebdecc !important;
+  border-radius: 3px;
+  font-family: Helvetica, sans-serif;
+
+}
+
+input {
+  height: 30px;
+  
+}
+
+#first_15, #last_15 {
+  max-width: 100%!important;
+
+}
+
+#id_16, #id_17 {
+  width: 315px !important;
+  margin: auto !important;
+
+}
+
+
+::-webkit-input-placeholder {
+   color: #ebdecc;
+   font-size: 17px;
+   padding-left: 8px;
+   font-family: Helvetica, sans-serif;
+
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #ebdecc;
+   font-size: 17px;
+   padding-left: 8px;
+   font-family: Helvetica, sans-serif;
+
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #ebdecc;
+   font-size: 17px;
+   padding-left: 8px;
+   font-family: Helvetica, sans-serif;
+}
+
+:-ms-input-placeholder {
+   color: #ebdecc;
+   font-size: 18px;
+   padding-left: 8px;
+   font-family: Helvetica, sans-serif;
+
+}
+
+#recaptcha_response_field {
+  color: #ebdecc !important;
+  border: 1px solid #ccc !important;
+  box-shadow: 0 1px 2px #eee inset;
+  height: 28px;
+  max-width: 95%;
+
+}
+
+.form-submit-button{
+  border-radius: 3px;
+  width:130px !important;
+  height: 35px;
+  font-size: 16px!important;
+  font-family: Helvetica, sans-serif !important;
+  font-weight: 400 !important;
+  margin: 0 !important;
+
+}
+
+.landing-credit {
+  font-size: 12px;
+
+}
+  #grasslands-link {
+    color: #503f36;
+    font-weight: bold;
+    text-decoration: none;
+
+  }
+
+  #grasslands-link hover {
+    font-weight:bolder;
+
+  }
+
+/*footer style start */
+
+.lockup {
+  width: 100%;
+  height:75px;
+  background: #503f36;
+  overflow: hidden;
+  bottom: 0;
+  display: block;
+
+}
+
+.copyright {
+  color:#ebdecc;
+  padding-top: 25px;
+  padding-left: 10px;
+  font-size: 16px;
+  float: left;
+
+}
+
+.footer-icon {
+  width: 50px;
+  height: 50px;
+  float: right;
+  margin-right: 20px;
+  margin-left: 10px;
+  margin-top: 10px;
+
+}
+
+/* media queries start */
+
+@media screen and (min-width : 320px) and (max-width : 480px) {
+      /* smartphone view */
+
+    /*landing start*/
+  .landing {
+    height: 400px;
+
+  }
+
+  /*about*/
+
+  .about {
+    padding-top: 400px;
+
+  }
+
+      /*portfolio start */
+
+  .responsiveBox {
+       width: 100%;
+       max-height: 275px;
+       margin-bottom: 35px;
+
+      }
+
+      .responsiveContent img {
+        max-height: 275px;
+
+      }
+
+    /*contactMe*/
+  .contactMeP {
+    width: 80%;
+    text-align: center;
+    padding-top: 0px;
+    }
+
+  }
+
+@media screen and (min-width : 320px) and (max-width : 550px) {
+  nav {
+      height: 100px;
+      background-color: rgba(80, 63, 54, .55);
+    }
+
+    .logo {
+      width: 110px;
+      position: absolute;
+      top: 30%;
+      left: 50%;
+      transform: translate(-50%, -50%)
+
+    }
+
+    ul.topnav {
+      width: 70%;
+      padding-top: 50px;
+      padding-left: 0;
+      margin: auto;
+      text-align: center;
+      float: none;
+    }
+
+      ul.topnav li a {
+          font-size: 3.65vw;
+          font-weight: 550;
+          float: none;
+
+        }
+  }
+
+
+@media screen and (min-width : 320px) and (max-width : 640px) {
+        /* smartphone view */ /*contact form */
+    /*.form-all {
+  max-width: 100%;
+    padding-left: 10px;
+    width: 100% !important;
+    margin: 0 auto;*/
+
+    }
+
+  ul.form-section li {
+      width: 315px !important;
+      margin: 0 auto !important;
+
+    }
+
+  .form-line {
+    padding: 0 !important;
+    padding-top: 8px !important;
+    margin: 0 !important;
+
+  }
+
+    input, textarea {
+      max-width: 100%;
+      margin: 0 auto;
+
+      }
+
+      #first_15, #last_15 {
+        width: 152px;
+        /*margin-left: 10px !important;*/
+
+      }
+
+      #cid_15, #id_15 {
+        width: 325px;
+
+      }
+
+      #input_16, #input_17, #id_16, #id_17, #cid_17, #cid_16 {
+        /*margin-left: 5px !important;*/
+        width: 315px !important;
+
+      }
+
+      /*.form-textarea {
+         max-width: 360px !important;
+         margin: 0 auto !important; */
+
+      }
+
+      #recaptcha_table {
+        width: 275px !important;
+
+      }
+
+        #recaptcha_challenge_image, #recaptcha_image, #recaptcha_response_field, .recaptcha_input_area {
+          width: 260px !important;
+          float:left;
+          padding: 0;
+
+        }
+
+        .recaptchatable a {
+          font-size: 12px;
+
+        }
+
+
+      .form-submit-button {
+        margin: 10px !important;
+        padding: 0!important;
+
+      }
+
+      /*.form-buttons-wrapper {
+        width: 130px; */
+
+      }
+  }
+
+@media screen and (min-width : 641px) and (max-width : 1168px) {
+/*contact form */
+/*.form-all{
+  width: 50% !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+
+  }*/
+
+
+.form-line {
+  padding: 5px !important;
+
+  }
+
+    #first_15, #last_15 {
+      width: 140px;
+      margin-left: 5px !important;
+
+    }
+
+    #cid_15, #id_15 {
+      width: 310px;
+
+    }
+
+    #input_16, #input_17,  #id_16, #id_17 {
+      max-width: 300px !important;
+
+    }
+
+    .recaptchatable a {
+      font-size: 12px;
+
+    }
+
+    .form-submit-button {
+      margin-top: 10px !important;
+      padding: 0 !important;
+
+    }
+}
+
+@media screen and (min-width : 551px) and (max-width : 755px) {
+  /*nav start */
+  ul.topnav li a {
+    font-size: 3vw;
+
+  }
+}
+
+@media screen and (min-width :756px) and (max-width : 1050px) {
+  /*nav start */
+  ul.topnav li a {
+      font-size: 2.3vw;
+
+  }
+}
+
+@media screen and (min-width : 481px) and (max-width : 650px) {
+  /* portfolio gallery */
+
+  .responsiveBox {
+    width: 50%;
+    float: left;
+    height: 150px;
+    margin-right: 0;
+    margin-bottom: 10%;
+
+  }
+
+      .responsiveContent img {
+         margin-bottom: 0;
+         margin: 0 auto;
+         max-height: 150px;
+      }
+
+}
+
+@media screen and (min-width : 651px) and (max-width : 1049px) {
+  /* tablet view*/
+
+ /* nav start*/
+
+  nav {
+
+  }
+
+   /* nav end*/
+
+    /* landing start */
+
+   .landing {
+     background-repeat: no-repeat;
+     width: 100%;
+
+   }
+
+   #lglogo {
+       max-width: 70%;
+
+     }
+
+     /* portfolio start */
+
+  .responsiveBox {
+      width: 45%;
+      float:left;
+      padding-bottom: 40%;
+      margin-bottom: 10px;
+
+   }
+
+  /*contact start */
+
+  .textarea {
+    max-width: 95%;
+    max-height: 100px;
+
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1050px) {
+
+  .contactMeP{
+    max-width: 75%;
+    padding-top: 0px;
+
+  }
+
+}
+
+@media screen and (min-width : 320px) and (max-width : 1050px) {
+
+  /* about start */
+
+   .about-content {
+     width: 80%;
+
+   }
+     .img-about {
+       float: none;
+
+     }
+
+     .p-about{
+         margin:0 auto;
+         padding-top:10%;
+         width: 100%;
+         font-size: 3vmax;
+         text-align: center;
+         float: none;
+
+     }
+
+     .h4-about{
+       display: none;
+
+     }
+
+     .h4-about-responsive {
+       display: block;
+       font-weight: bold;
+       margin:0 auto;
+       font-size: 2.9vmax;
+
+     }
+
+     .social-media{
+        display: none;
+
+      }
+
+  /*footer start */
+
+  .lockup {
+    list-style-type: none;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    z-index: 2;
+
+  }
+
+   .copyright {
+      font-size: 4vw;
+      font-size: 14px;
+
+    }
+
+   .footer-icon {
+        position: relative;
+        width: 35px;
+
+    }
+
+}
+
+@media screen and (min-width : 850px) and (max-width : 1050px) {
+  /* about */
+  .p-about{
+    font-size: 2.5vmax;
+
+  }
+
+}
+
+@media screen and (min-width : 1050px) and (max-width: 1199px){
+   /* Small desktop */
+
+  #lglogo {
+      max-width: 90%;
+
+    }
+
+    /*portfolio start */
+
+   .responsiveBox{
+       width: 32%;
+       float:left;
+       padding-bottom: 20%;
+   }
+}
+
+@media screen and (min-width : 1200px) {
+   /* Medium desktop */
+   /* portfolio gallery */
+   .responsiveBox {
+     width: 32%;
+     padding-bottom: 20%;
+
+   }
